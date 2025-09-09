@@ -35,7 +35,7 @@ WORKDIR /opt/ros2_ws
 RUN mkdir -p src && chmod -R a+rwx /opt/ros2_ws
 
 # Clone your repository into src
-RUN git clone https://github.com/arshadlab/tb3_multi_robot.git src/tb3_multi_robot -b jazzy
+RUN git clone https://github.com/arshadlab/tb3_multi_robot.git src/tb3_multi_robot -b master
 
 # Install dependencies using rosdep
 RUN rosdep install --from-paths src --ignore-src -r -y
