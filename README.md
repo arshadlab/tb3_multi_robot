@@ -59,8 +59,8 @@ export CYCLONEDDS_URI=$HOME/cyclonedds.xml
 $ mkdir -p robot_ws/src
 $ cd robot_ws/src
 
-# Clone the Jazzy branch of the multi-robot repo
-$ git clone  https://github.com/arshadlab/tb3_multi_robot.git -b jazzy
+# Clone the master branch of the multi-robot repo
+$ git clone  https://github.com/arshadlab/tb3_multi_robot.git -b master
 
 # Initialize the workspace
 $ cd robot_ws
