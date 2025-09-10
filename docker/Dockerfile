@@ -14,6 +14,11 @@ RUN apt-get update && apt-get install -y \
     curl \
     ros-jazzy-rmw-implementation \
     ros-jazzy-rmw-cyclonedds-cpp \
+    ros-jazzy-turtlebot3-gazebo \
+    ros-jazzy-turtlebot3-navigation2 \
+    ros-jazzy-nav2-common \
+    ros-jazzy-navigation2 \
+    ros-jazzy-slam-toolbox \
     && rm -rf /var/lib/apt/lists/*
 
 # Create your CycloneDDS config file
